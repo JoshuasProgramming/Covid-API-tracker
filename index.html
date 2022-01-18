@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--html2pdf link for turning container info class into a pdf document-->
+    <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxmhkllFPgoxid4x2BQ9vCpPUYhMyUKbM&callback=initMap"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Covid 19 Tracker</title>
+</head>
+<body>
+    <h1>Covid 19 Tracker</h1>
+    <input class="country-input" id="country_name" placeholder="Enter Country">
+    <button id="btn" class="submit-btn">Submit</button>
+    <!--Container contains covid data-->
+    <div class="container" id="container_id">
+    </div>
+    <!--map contains the Google map api information-->
+    <div id="map">
+
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
